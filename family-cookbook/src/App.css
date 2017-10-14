@@ -18,7 +18,7 @@ h3 {
   background-color: white;
   width: 70%;
   margin: 0 auto;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 .App-logo {
@@ -44,6 +44,7 @@ h3 {
 .nav-links {
   list-style: none;
   padding-left: 0;
+  padding-top:3%;
 }
 
 .nav-links li {
@@ -59,4 +60,9 @@ h3 {
 
 .nav-links a:hover {
   color: #FDCA40;
+}
+
+a[disabled] {
+    pointer-events: none;
+    color: gray;
 }

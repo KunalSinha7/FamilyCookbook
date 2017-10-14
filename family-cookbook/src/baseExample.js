@@ -16,5 +16,6 @@ const db=database(app)
 
 export const auth=app.auth()
 export const githubProvider=new firebase.auth.GithubAuthProvider()
+export const emailProvider=new firebase.auth.EmailAuthProvider()
 
 export default Rebase.createClass(db)

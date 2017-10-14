@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class AllRecipe extends Component {
+class Logout extends Component {
    render() {
     return (
       <div>
-        {}
+
       </div>
     );
   }
 }
 
-export default AllRecipe;
+export default Logout;
