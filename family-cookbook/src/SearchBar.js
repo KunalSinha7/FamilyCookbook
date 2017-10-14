@@ -16,7 +16,7 @@ class SearchBar extends Component {
     if(val!=null){
         const recipeName=val.value
         this.setState({recipeName})
-        this.props.history.push(`/timeline/${recipeName}`)
+        this.props.history.push(`/RecipeSearch/${recipeName}`)
     }
   }
 
