@@ -19,7 +19,7 @@ class App extends Component {
   addRecipe=()=>{
     const recipes={...this.state.recipes}
     const recipe={
-      id:`recipe-${Date.now()}`,
+      id:`${Date.now()}`,
       name:'',
       ingredients:[],
       directions:'',
@@ -59,11 +59,12 @@ class App extends Component {
           </ul>
           <Switch>
             <PropsRoute path='/MyRecipes/' component={MyRecipe} uid={this.state.uid}/>
-            <PropsRoute path='/AllRecipes/' component={AllRecipe}/>
-            <PropsRoute exact path='/' component={Login} authHandler={this.authHandler} logout={this.logout}/>
+            <PropsRoute path='/AllRecipes/' component={AllRecipe} addRecipe={this.addRecipe}/>
+            <PropsRoute exact path='/' component={Login} authHandler={this.authHandler}/>
           </Switch>
         </div>
         <Logout logout={this.logout} uid={this.state.uid?1:0}/>
+        <div className='filler'></div>
       </div>
     )
   }

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import {NavLink, Switch, Route, DefaultRoute} from 'react-router-dom';
 
+
 import Select from 'react-virtualized-select';
 import 'react-select/dist/react-select.css';
 import 'react-virtualized/styles.css'
 import 'react-virtualized-select/styles.css'
+import './SearchBar.css'
 
 class SearchBar extends Component {
   state={

@@ -15,7 +15,7 @@ h3 {
 
 .App {
   text-align: center;
-  background-color: white;
+  background-color: #A79C93;
   width: 70%;
   margin: 0 auto;
   border-radius: 5px;
@@ -53,13 +53,13 @@ h3 {
 }
 
 .nav-links a {
-  color: #02b1ff;
+  color: #04060F;
   text-decoration: none;
   font-size: 25px;
 }
 
 .nav-links a:hover {
-  color: #FDCA40;
+  color: #C1403D;
 }
 
 a[disabled] {

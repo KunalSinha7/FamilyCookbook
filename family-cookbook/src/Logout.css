@@ -1,6 +1,7 @@
 .SignOut {
   cursor: pointer;
-  background-color: white;
+  background-color: #03353E;
+  color:#A79C93;
   border: 0;
   display: block;
   font-family: 'helvetica neue', sans-serif;
